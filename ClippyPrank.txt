@@ -1,4 +1,4 @@
-REM *Testing script. Is working on some machines*
+REM *This script downloads clippy pranking program and executes it
 DELAY 1000
 GUI r
 DELAY 200
