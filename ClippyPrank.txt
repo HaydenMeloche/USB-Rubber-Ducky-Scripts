@@ -1,4 +1,5 @@
 REM *This script downloads clippy pranking program and executes it
+REM *Created by Hayden Meloche - www.youtube.com/user/TheHacker0007
 DELAY 1000
 GUI r
 DELAY 200
